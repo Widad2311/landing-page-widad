@@ -1,0 +1,311 @@
+body {
+   font-size: 18px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   padding:0;
+   margin: 0;
+}
+h1 {
+    font-size: 42px;
+    text-align: center;
+    color: white;
+   
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+   
+
+}
+    
+h1,h2,h3,h4 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.banner{
+    background-image: url('images/banniere.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    text-align: center;
+
+}
+
+.btn-red{
+    background-color: black;
+    padding: 15px 25px;
+    color:white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  
+   
+}
+.banner p{
+    color :rgb (230,230,230);
+    font-size : 22px;
+    text-align: center;
+    margin: 35px;
+}
+.section-white{
+    background-color: white;
+    color : black;
+    margin: 70px 0;
+    margin-top: -18px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+}
+.container{
+    margin : 20px auto;
+    width : 1200px;
+    height: 560px;
+    padding: 80px;
+    padding-top: 50px;
+    background-color: white;
+   
+}
+.card-white{
+    border-radius: 15%;
+    background-color: white;
+    box-shadow : 0 0 20px rgba(0,0,0,0.2);
+    height: 500px;
+    width: auto;
+    text-align: center;
+}
+.cards{
+
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 30px;
+    
+}
+.card-white img{
+    width: 100%;
+    height : 250px;
+    object-fit: cover;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15%;
+}
+
+.card-white p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px; 
+    line-height: 1.6;
+}
+    
+
+.btn-red:hover {
+    background-color: rgb(210, 158, 46);
+}
+.btn-white{
+    background-color: black;
+    padding: 15px 25px;
+    color: whi;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+.bottom-p{
+    margin-bottom: 40px;
+    background-color: black;
+}
+
+.btn-white:hover{
+    background-color: rgb(210, 158, 46);
+}
+
+
+
+.container-global{
+    margin : 20px auto;
+    width : 1200px;
+    height: 560px;
+    padding: 25px;
+    background-color: white;
+}
+
+.temoignages-white{
+    background-color: white;
+    color : black;
+   
+}
+.container-avis{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap : 20px;
+}
+
+.temoignages-white img{
+    border-radius: 50%;
+    width: 200px;
+    height : 200px;
+    object-fit: cover;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-top: 40px;
+  
+}
+.card-profile{
+    
+    background-color: rgb(233, 225, 217);
+    box-shadow : 0 0 20px rgba(0,0,0,0.2);
+    height: 100%;
+    width: auto;
+    text-align:center
+}
+
+.card-profile p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px; 
+    line-height: 1.6;
+}
+.container-abonnements {
+    margin : 0px auto;
+    width : 900px;
+    height: 300px;
+    padding: 40px;
+    background-color: rgb(240, 237, 234);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap : 5px;
+    background: rgb(240, 237, 234); 
+    text-align:center;
+   
+  }
+  
+  .card-abonnement {
+    background: #fff; 
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    
+    }
+  .card-abonnement h3 {
+    margin: 20px 0;
+  }
+  .options-abonnement{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap:5px; 
+}
+
+.abonnement-white{
+    text-align: center;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2); 
+    margin-top: -65px;
+    background-color: rgb(240, 237, 234);
+    padding: 50px;
+
+}
+  .prix {
+    font-size: 32px; 
+    color: #333; 
+    margin: 10px 0;
+  }
+  
+  .card-abonnement p {
+    margin: 10px 0 20px;
+    text-align: center;
+  }
+
+  .btn-option-abonnement {
+    background-color: rgb(232, 220, 205);
+    padding: 5px 15px;
+  }
+  
+  .btn-option-abonnement:hover {
+    background-color: black;
+    color: #fff;
+  }
+  .btn-white {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    line-height: 60px;
+  }
+  .btn-white:hover {
+    background-color: rgb(177, 116, 46);
+  }
+  .btn-cta{
+    background-color: rgb(232, 220, 205);
+    padding: 15px 25px;
+    color:rgb(19, 17, 17);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    
+  }
+.btn-cta:hover{
+    background-color: black;
+    color: #fff;
+}
+
+  .list-inline  { 
+    list-style-type:none;
+    padding-left: 0%;
+}
+.list-inline li  { 
+    display: inline;
+}
+.list-inline li i {
+        
+        font-size : 60px;
+        color: rgb(185, 174, 162);
+        margin: 0 25px;
+        
+}
+
+.footer {
+    padding: 20px; 
+    background-color: #33383E;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+
+
+
+}
+.newsletter {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #EFDDD1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+ }
+ .btn-newsletter {
+    
+    color: black;
+    text-decoration: none;
+    
+ }
+ .newsletter:hover {
+    background-color: rgb(185, 136, 72);
+ }
+
+ .fa-brands:hover{
+    background-color: rgb(185, 136, 72);
+
+    
+}
